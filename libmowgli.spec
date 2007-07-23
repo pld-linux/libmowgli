@@ -2,12 +2,12 @@
 # - pl summary && description
 Summary:	Development framework for C (like GLib)
 Name:		libmowgli
-Version:	0.2.0
+Version:	0.3.0
 Release:	0.1
 License:	BSD
 Group:		Libraries
 Source0:	http://sacredspiral.co.uk/~nenolod/mowgli/%{name}-%{version}.tgz
-# Source0-md5:	3b0c9f8c1cae32632660dc89f747685a
+# Source0-md5:	d8a8ca8827eba9fcb4cd100d228e44e9
 URL:		http://www.atheme-project.org/projects/mowgli.shtml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
