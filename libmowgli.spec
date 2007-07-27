@@ -3,7 +3,7 @@
 Summary:	Development framework for C (like GLib)
 Name:		libmowgli
 Version:	0.3.0
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	http://sacredspiral.co.uk/~nenolod/mowgli/%{name}-%{version}.tgz
