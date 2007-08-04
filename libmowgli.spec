@@ -1,6 +1,5 @@
-# TODO:
-# - pl summary && description
 Summary:	Development framework for C (like GLib)
+Summary(pl.UTF-8):	Szkielet programistyczny dla C (podobny do GLiba)
 Name:		libmowgli
 Version:	0.3.0
 Release:	1
@@ -15,18 +14,31 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 mowgli is a development framework for C (like GLib), which provides
 high performance and highly flexible algorithms. It can be used as a
 suppliment to GLib (to add additional functions (dictionaries,
-hashes), or replace some of the slow GLib list manipulation
-functions), or stand alone. It also provides a powerful hook system
+hashes), or replace some of the slow GLib functions (like list
+manipulation), or stand alone. It also provides a powerful hook system
 and convenient logging for your code, as well as a high performance
 block allocator.
 
+%description -l pl.UTF-8
+mowgli to szkielet programistyczny dla C (podobny do GLiba)
+udostępniający wysoko wydajne i elastyczne algorytmy. Może być używany
+jako suplement do GLiba (dodający nowe funkcje, takie jak słowniki czy
+hasze) albo do zastąpienia niektórych wolnych funkcji GLiba (jak
+operacje na listach), albo samodzielnie. Udostępnia także potężny
+system uchwytów i wygodnego logowania, a także wysoko wydajny alokator
+bloków.
+
 %package devel
 Summary:        Header files for libmowgli
+Summary(pl.UTF-8):	Pliki nagłówkowe libmowgli
 Group:          Development/Libraries
 Requires:       %{name} = %{version}-%{release}
 
 %description devel
 Header files for libmowgli.
+
+%description devel -l pl.UTF-8
+Pliki nagłówkowe libmowgli.
 
 %prep
 %setup -q
