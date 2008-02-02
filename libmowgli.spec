@@ -1,12 +1,12 @@
 Summary:	Development framework for C (like GLib)
 Summary(pl.UTF-8):	Szkielet programistyczny dla C (podobny do GLiba)
 Name:		libmowgli
-Version:	0.6.0
+Version:	0.6.1
 Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	http://distfiles.atheme.org/%{name}-%{version}.tgz
-# Source0-md5:	7040b6fa8ee5b8498a09ea95ad59d446
+# Source0-md5:	80f8a27f1b44b0b129215f858ab1ab82
 URL:		http://atheme.org/projects/mowgli.shtml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
