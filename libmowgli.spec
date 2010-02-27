@@ -63,7 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS README
 %attr(755,root,root) %{_libdir}/libmowgli.so.*.*.*
-%ghost %attr(755,root,root) %{_libdir}/libmowgli.so.?
+%attr(755,root,root) %ghost %{_libdir}/libmowgli.so.?
 
 %files devel
 %defattr(644,root,root,755)
