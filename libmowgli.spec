@@ -5,9 +5,10 @@ Version:	1.0.0
 Release:	2
 License:	BSD
 Group:		Libraries
+# note: dead URL, untagged code available in https://github.com/atheme/libmowgli
 Source0:	http://distfiles.atheme.org/%{name}-%{version}.tar.bz2
 # Source0-md5:	e5f99410cb7b161f322b6bccd4b05dbe
-URL:		http://atheme.org/projects/mowgli.shtml
+URL:		http://atheme.org/projects/libmowgli.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
